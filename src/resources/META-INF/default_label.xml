@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="TIS-620"?>
+<configs>
+	<config language="EN">
+		<searchbutton>Search</searchbutton>
+		<insertbutton>Insert</insertbutton>
+		<recordnotfound>Record not found</recordnotfound>
+		<savebutton>Save</savebutton>
+		<cancelbutton>Cancel</cancelbutton>
+		<resetbutton>Clear</resetbutton>
+		<clearbutton>Clear</clearbutton>
+		<sendbutton>Send</sendbutton>
+		<completebutton>Complete</completebutton>
+		<saveasbutton>Save As</saveasbutton>
+		<okbutton>OK</okbutton>
+		<consendbutton>Send</consendbutton>
+		<updatebutton>Update</updatebutton>
+		<deletebutton>Delete</deletebutton>
+		<uploadbutton>Upload</uploadbutton>
+		<downloadbutton>Down Load</downloadbutton>
+		<canceldialogbutton>Cancel</canceldialogbutton>
+		<all>All</all>
+		<active>Active</active>
+		<inactive>Inactive</inactive>
+		<action_headerlabel>Action</action_headerlabel>
+		<modalheadertitle_new>Add New</modalheadertitle_new>
+		<modalheadertitle_edit>Edit</modalheadertitle_edit>	
+		<modalheadertitle_view>View</modalheadertitle_view>
+		<importbutton>Import</importbutton>
+		<exportbutton>Export</exportbutton>
+		<submitgroupbutton>Submit Data</submitgroupbutton>
+		<seqno_headerlabel>No.</seqno_headerlabel>
+		<closebutton>Close</closebutton>
+		<empty_alert>You can not leave this empty</empty_alert>	
+		<invalid_alert>Invalid input</invalid_alert>
+		<trxnotfound>Transaction not found</trxnotfound>
+		<usernotfound>User not found, please create user before setting</usernotfound>
+		<pagenotfound>Page not found</pagenotfound>
+		<maxpassword_msg>Please input password not over 8 character.</maxpassword_msg>
+	</config>
+	<config language="TH">
+		<searchbutton>ค้นหา</searchbutton>
+		<insertbutton>เพิ่ม</insertbutton>
+		<recordnotfound>ไม่พบรายการ</recordnotfound>
+		<savebutton>บันทึก</savebutton>
+		<cancelbutton>ยกเลิก</cancelbutton>
+		<resetbutton>ล้าง</resetbutton>
+		<clearbutton>ล้าง</clearbutton>
+		<sendbutton>ส่ง</sendbutton>
+		<completebutton>สำเร็จ</completebutton>
+		<saveasbutton>บันทึกเป็น</saveasbutton>
+		<okbutton>ตกลง</okbutton>
+		<consendbutton>ส่งแบบสอบถาม</consendbutton>
+		<updatebutton>ปรับปรุง</updatebutton>
+		<deletebutton>ลบ</deletebutton>
+		<uploadbutton>อัพโหลด</uploadbutton>
+		<downloadbutton>ดาวน์โหลด</downloadbutton>
+		<canceldialogbutton>ยกเลิก</canceldialogbutton>
+		<all>ทั้งหมด</all>
+		<active>ใช้งาน</active>
+		<inactive>ไม่ใช้งาน</inactive>
+		<action_headerlabel>&#160;</action_headerlabel>
+		<modalheadertitle_new>สร้างใหม่</modalheadertitle_new>
+		<modalheadertitle_edit>แก้ไข</modalheadertitle_edit>
+		<modalheadertitle_view>มอง</modalheadertitle_view>		
+		<importbutton>นำเข้า</importbutton>
+		<exportbutton>นำออก</exportbutton>
+		<submitgroupbutton>ส่งข้อมูล</submitgroupbutton>
+		<seqno_headerlabel>ลำดับที่</seqno_headerlabel>	
+		<closebutton>ปิด</closebutton>
+		<empty_alert>กรุณากรอกข้อมูล</empty_alert>	
+		<invalid_alert>กรอกข้อมูลไม่ถูกต้อง</invalid_alert>
+		<trxnotfound>ไม่พบรายการ</trxnotfound>
+		<usernotfound>ไม่พบรายการผู้ใช้งาน  โปรดสร้างผู้ใช้งานก่อนการจัดตั้งข้อมูลที่เกี่ยวข้อง</usernotfound>
+		<pagenotfound>ไม่พบหน้าใช้งาน</pagenotfound>
+		<maxpassword_msg>กรุณาระบุรหัสผ่านที่มีความยาวไม่เกิน 8 ตัวอักษร</maxpassword_msg>
+	</config>
+</configs>

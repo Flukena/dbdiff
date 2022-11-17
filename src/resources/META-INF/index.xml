@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- SCCS id: $Id$ -->
+	<config language="EN">
+		<login_label>Log In</login_label>
+		<login_button>Log In</login_button>
+		<login_user_label>User name</login_user_label>
+		<login_password_label>Password</login_password_label>
+		<login_user_placeholder>User</login_user_placeholder>
+		<login_pass_placeholder>Password</login_pass_placeholder>
+		<forgot_password>Forgot Password?</forgot_password>
+		<loginmenutrigger>Sign In</loginmenutrigger>
+		<englishlanguage>English</englishlanguage>
+		<thailanguage>Thai</thailanguage>
+		<profile_label>Profile</profile_label>
+		<changepwd_label>Change Password</changepwd_label>
+		<logout_label>Log Out</logout_label>
+		<lastaccess_label>Last Access</lastaccess_label>
+		<change_password_title>Change Password</change_password_title>
+		<changepassword_info>The system force you to change password, please specified your new password and then submit.</changepassword_info>
+		<newpassword_label>New Password</newpassword_label>
+		<savechangebutton>Submit</savechangebutton>
+		<userpassword_alert>You can not leave this empty</userpassword_alert>
+		<signin_label>Sign In</signin_label>
+	</config>
+	<config language="TH">
+		<login_label>เข้าสู่ระบบ</login_label>
+		<login_button>เข้าระบบ</login_button>
+		<login_user_label>บัญชีผู้ใช้</login_user_label>
+		<login_password_label>รหัสผ่าน</login_password_label>
+		<login_user_placeholder>ผู้ใช้</login_user_placeholder>
+		<login_pass_placeholder>รหัสผ่าน</login_pass_placeholder>
+		<forgot_password>ลืมรหัสผ่าน?</forgot_password>
+		<loginmenutrigger>เข้าใช้งาน</loginmenutrigger>
+		<englishlanguage>อังกฤษ</englishlanguage>
+		<thailanguage>ไทย</thailanguage>
+		<profile_label>ข้อมูลส่วนตัว</profile_label>
+		<changepwd_label>เปลี่ยนรหัสผ่าน</changepwd_label>
+		<logout_label>ออกจากระบบ</logout_label>
+		<lastaccess_label>เข้าใช้งานล่าสุด</lastaccess_label>
+		<change_password_title>เปลี่ยนรหัสผ่าน</change_password_title>
+		<changepassword_info>ระบบบังคับเปลี่ยนรหัสผ่าน  กรุณาระบุรหัสผ่านของท่านใหม่แล้วกด ยอมรับ</changepassword_info>
+		<newpassword_label>รหัสผ่านใหม่</newpassword_label>
+		<savechangebutton>ยอมรับ</savechangebutton>
+		<userpassword_alert>กรุณากรอกรหัสผ่าน</userpassword_alert>
+		<signin_label>เข้าสู่ระบบ</signin_label>
+	</config>
+</configs>

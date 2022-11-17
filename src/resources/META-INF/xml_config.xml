@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="TIS-620"?>
+<root>
+	<section name="STATUS">
+		<item id="1" name="A" value="Active"/>  
+		<item id="2" name="P" value="Pending"/>  
+		<item id="3" name="C" value="Close"/>  
+	</section>
+	<section name="RESETPASSWORDMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/> 
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Reset new password changed"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>
+	<section name="FORGOTPASSWORDMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/>  		
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Confirm new password"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>
+	<section name="ACCESSORPASSWORDMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/> 
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Confirm access system"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>
+	<section name="ABSENCEREQUESTMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/> 
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Absence Request Approve"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>	
+	<section name="OVERTIMEREQUESTMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/> 
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Overtime Request Approve"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>
+	<section name="CLOCKTIMEREQUESTMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/> 
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Clock Time Request Approve"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>	
+	<section name="SHIFTTIMEREQUESTMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/> 
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Shift Time Request Approve"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>	
+	<section name="USERIDMAIL">
+		<item id="1" name="MAIL_SERVER" value="smtp.gmail.com"/> 
+		<item id="2" name="MAIL_USER" value="ezprompt"/>  
+		<item id="3" name="MAIL_PASSWORD" value="qxilpqiqdyquqclq"/> 
+		<item id="4" name="MAIL_FROM" value="ezprompt@gmail.com"/> 
+		<item id="5" name="MAIL_TO" />
+		<item id="6" name="MAIL_CC" />
+		<item id="7" name="MAIL_BCC" />
+		<item id="8" name="MAIL_PROTOCOL" value="smtp"/>  
+		<item id="9" name="MAIL_SUBJECT" value="Confirm access system"/>  
+		<item id="10" name="MAIL_DISCLAIMER" />  
+		<item id="11" name="MAIL_BODY" />
+		<item id="12" name="MAIL_TITLE" value="EZPrompt"/>
+		<item id="13" name="mail.smtps.host" value="smtp.gmail.com" />
+		<item id="14" name="mail.smtps.auth" value="true" />
+		<item id="15" name="mail.smtp.port" value="587" />
+		<item id="16" name="mail.smtp.auth" value="true" />
+		<item id="17" name="mail.smtp.starttls.enable" value="true" />
+	</section>	
+</root>

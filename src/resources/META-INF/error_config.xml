@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors reload="true">
+	<!-- The below is the error code for MySQL data base -->
+	<!-- Null data entry-->
+	<error code="1048"><EN>Input some data is undefined on required field</EN><TH>กรุณากรอกข้อมูลให้ครบถ้วนในช่องที่มีเครื่องหมายดอกจัน</TH></error>
+	<!-- Duplicate entry for ??? -->
+	<error code="1062"><EN>Duplicate data entry</EN><TH>พบข้อมูลซ้ำในระบบ กรุณาลองใหม่อีกครั้ง</TH></error>
+	
+	<error code="-4011"><EN>Accessor not valid or session expired. Please login again.</EN><TH>บัญชีผู้ใช้งานไม่ถูกต้องหรือหมดเวลาใช้งาน  กรุณาเข้าสู่ระบบอีกครั้ง</TH></error>
+
+	<error code="5001"><EN>User or Password is incorrect</EN><TH>ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</TH></error>
+	<error code="5002"><EN>User or Password is incorrect</EN><TH>ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</TH></error>
+	<error code="5003"><EN>Sign in failure are over # times. Please contact administrator. Close all your browser and retry again.</EN><TH>เข้าใช้งานผิดพลาด # ครั้ง กรุณาติดต่อผู้ดูแลระบบ ปิดเว็บเบาวเซอร์ทั้งหมดและเข้าสู่ระบบอีกครั้ง</TH></error>
+	<error code="5004"><EN>Your User ID is not active. Please contact administrator.</EN><TH>บัญชีผู้ใช้ของคุณยังไม่พร้อมใช้งานในขณะนี้ กรุณาติดต่อผู้ดูแลระบบ</TH></error>
+	<error code="5005"><EN>Your User ID has been locked. Please contact administrator.</EN><TH>บัญชีผู้ใช้ของคุณไม่สามารถใช้งานได้ กรุณาติดต่อผู้ดูแลระบบ</TH></error>
+	<error code="5006"><EN>Password expired. Please change password.</EN><TH>รหัสผ่านหมดอายุ  กรุณาเปลี่ยนรหัสผ่านใหม่</TH></error>
+	<error code="5007"><EN>You are not active cause of pending from administrator.</EN><TH>คุณยังไม่สามารถใช้งานได้ โปรดรอการติดต่อจากผู้ดูแลระบบ</TH></error>
+	<error code="5008"><EN>You account was closed, out of service now.</EN><TH>บัญชีผู้ใช้ของท่านถูกระงับ ไม่สามารถใช้งานระบบได้</TH></error>
+	<error code="5009"><EN>Your User ID has been locked. Please contact administrator or wait and retry again after 3 minute.</EN><TH>บัญชีผู้ใช้ของคุณไม่สามารถใช้งานได้ กรุณาติดต่อผู้ดูแลระบบหรือรอประมาณ 3 นาทีและเข้าสู่ระบบอีกครั้ง</TH></error>
+	<error code="5010"><EN>You are not active, out of effective date.</EN><TH>บัญชีผู้ใช้นี้ยังไม่อนุญาตให้ใช้งาน ยังไม่ถึงเวลาที่สามารถเข้าใช้งานระบบ</TH></error>
+
+	<error code="-8801"><EN>OTP Activate Expired</EN><TH>รหัส OTP หมดเวลาใช้งานไปแล้ว กรุณาขอรหัสใหม่อีกครั้ง</TH></error>
+	<error code="-8802"><EN>OTP Over Activate</EN><TH>รหัส OTP ใช้งานไปแล้ว กรุณาขอรหัสใหม่อีกครั้ง</TH></error>
+	<error code="-8803"><EN>OTP Over Time</EN><TH>รหัส OTP หมดเวลาใช้งาน กรุณาขอรหัสใหม่อีกครั้ง</TH></error>
+	<error code="-8804"><EN>OTP Already Activated</EN><TH>รหัส OTP ใช้งานไปแล้ว กรุณาขอรหัสใหม่อีกครั้ง</TH></error>
+	<error code="-8805"><EN>OTP Not Found</EN><TH>ไม่พบรหัส OTP กรุณากรอกให้ถูกต้อง</TH></error>
+	
+	<error code="-8881"><EN>Please install and update new version</EN><TH>โปรดทำการติดตั้งและปรับปรุงเวอร์เป็นชั่นใหม่</TH></error>
+	
+	<error code="-8899"><EN>Not allow password as same as user</EN><TH>ไม่ยินยอมให้ตั้งรหัสผ่านเป็นชื่อผู้ใช้งาน</TH></error>
+	<error code="-8898"><EN>User ID is already existed, please use another one</EN><TH>บัญชีผู้ใช้งานนี้มีอยู่แล้ว  กรุณาใช้บัญชีผู้ใช้อื่น</TH></error>
+	<error code="-8897"><EN>Confirm Password Mismatch</EN><TH>การยืนยันรหัสผ่านไม่ตรงกัน</TH></error>
+	<error code="-8896"><EN>Password length not over 8 character</EN><TH>ความยาวรหัสผ่านต้องไม่ควรเกิน 8 ตัวอักษร</TH></error>
+	<error code="-8895"><EN>User does not existed</EN><TH>ไม่พบบัญชีผู้ใช้นี้ในระบบ</TH></error>
+	<error code="-8894"><EN>Old Password Mismatch</EN><TH>รหัสผ่านเดิมไม่ตรงกัน</TH></error>
+	<error code="-8893"><EN>Invalid confirm secure code</EN><TH>รหัสยืนยันความปลอดภัยไม่ถูกต้อง</TH></error>
+	<error code="-8892"><EN>Email address is invalid</EN><TH>อีเมลไม่ถูกต้อง</TH></error>
+	<error code="-8891"><EN>User is undefined</EN><TH>ผู้ใช้งานไม่ระบุ</TH></error>
+	<error code="-8890"><EN>Invalid input</EN><TH>กรอกข้อมูลไม่ถูกต้อง</TH></error>
+	
+	<error code="-8990"><EN>User privilege not found</EN><TH>ไม่ข้อมูลผู้ใช้งานในระบบ</TH></error>
+	<error code="-8991"><EN>User name not found</EN><TH>ไม่ข้อมูลชื่อผู้ใช้งานในระบบ</TH></error>
+	<error code="-8992"><EN>Over OTP mistaken, please contact administrator</EN><TH>ท่านขอ OTP เกินจำนวนที่กำหนด  กรุณาติดต่อเจ้าหน้าที่</TH></error>
+	<error code="-8993"><EN>Over request OTP, please wait for 8 hours</EN><TH>ท่านขอ OTP เกินจำนวนที่กำหนด  กรุณารอ 8 ชั่วโมง</TH></error>
+	<error code="-8994"><EN>Not allow password as same as user name</EN><TH>ไม่ยินยอมให้ตั้งรหัสผ่านเป็นชื่อผู้ใช้งาน</TH></error>
+	<error code="-8995"><EN>Password is undefined</EN><TH>ท่านไม่ได้ระบุรหัสผ่าน</TH></error>
+	<error code="-8996"><EN>Password mismatch</EN><TH>ท่านระบุรหัสผ่านไม่ถูกต้อง</TH></error>
+
+	<error code="-8900"><EN>Company not found</EN><TH>ไม่พบข้อมูลบริษัท</TH></error>
+	<error code="-8901"><EN>Approver does not existed</EN><TH>ไม่พบผู้อนุมัติ</TH></error>
+	
+	<error code="-11001"><EN>Whom to report to does not known</EN><TH>ไม่พบผู้บังคับบัญชา</TH></error>
+
+	<error code="-11101"><EN>Unspecified device id</EN><TH>ไม่ได้ระบุ รหัสอุปกรณ์</TH></error>
+	<error code="-11102"><EN>Unspecified device token</EN><TH>ไม่ได้ระบุ ตราสัญลักษณ์(token)อุปกรณ์</TH></error>
+	<error code="-11103"><EN>Duplicate usage token</EN><TH>มีการใช้งานตราสัญลักษณ์(token)อุปกรณ์ซ้ำซ้อน</TH></error>
+	
+	<error code="-12001"><EN>Invalid date range</EN><TH>กำหนดช่วงวันที่ไม่ถูกต้อง</TH></error>
+	<error code="-12002"><EN>Date is the holiday</EN><TH>วันที่ระบุเป็นวันหยุด</TH></error>
+	<error code="-12003"><EN>Summary of requests is too small, it's less than the minimum required leave date</EN><TH>จำนวนวันลาที่คุณเลือกไม่เพียงพอกับจำนวนวันลาที่คงเหลือ</TH></error>
+	<error code="-12004"><EN>Please attach a medical certificate. Due to the number of leave days from [X] day(s) must submit a medical certificate.</EN><TH>กรุณาแนบไฟล์ใบรับรองแพทย์ เนื่องจากจำนวนวันลาเกิน [X] วัน</TH></error>
+	<error code="-12005"><EN>Number of the request leave days is more than the remaining</EN><TH>ไม่อนุญาตให้ทำการลามากกว่ายอดคงเหลือ</TH></error>
+	<error code="-12006"><EN>Absence date is already requested</EN><TH>วันลานี้ได้ทำการลาไปแล้ว</TH></error>
+	<error code="-12007"><EN>Start time and End time is not empty</EN><TH>เวลาเริ่มต้นและสิ้นสุดต้องไม่เป็นค่าว่าง</TH></error>
+	<error code="-12008"><EN>Half Period not found</EN><TH>โปรดระบุช่วงเวลาที่ต้องการลา</TH></error>
+	
+	<error code="-12011"><EN>Time shift not found</EN><TH>ไม่พบกะการทำงาน</TH></error>
+	<error code="-12012"><EN>Start time can not be the same as end time</EN><TH>เวลาเริ่มต้นและเวลาสิ้นสุดต้องไม่ใช่เวลาเดียวกัน</TH></error>
+	<error code="-12013"><EN>Cross year not allow</EN><TH>ไม่อนุญาตให้ลาข้ามปี</TH></error>
+	<error code="-12014"><EN>Absence type not found</EN><TH>ไม่พบประเภทการลา</TH></error>
+	
+	<error code="-12101"><EN>Cannot change absence state, please wait and retry again after approve completed</EN><TH>ไม่สามารถเปลี่ยนสถานะการลาได้ กรุณารอและทำการลาอีกครั้งหลังจากได้รับการอนุมัติแล้ว</TH></error>
+	<error code="-12102"><EN>Unable to repeat cancel absence transaction</EN><TH>ไม่สามารถยกเลิกการลาที่ซ้ำได้</TH></error>
+	<error code="-12103"><EN>This absence transaction is already canceled</EN><TH>รายการลานี้ถูกยกเลิกแล้ว</TH></error>
+	<error code="-12104"><EN>Unable to repeat cancel transaction</EN><TH>ไม่สามารถยกเลิกรายการได้</TH></error>
+	<error code="-12105"><EN>Latitude or longitude is unspecified</EN><TH>ไม่สามารถลงเวลาได้ เนื่องจากไม่ระบุ ละติจูดหรือลองจิจูด</TH></error>
+	<error code="-12106"><EN>Conflict user time stamp</EN><TH>ไม่สามารถลงเวลาได้ เนื่องจากผู้ใช้ท่านอื่นใช้งานลงเวลาไปแล้ว</TH></error>
+	
+	<error code="-13101"><EN>Duplicate record in employee id</EN><TH>รหัสพนักงานนี้มีอยู่แล้ว ไม่สามารถใช้งานรหัสดังกล่าวได้</TH></error>
+	<error code="-13102"><EN>Conflict employee id</EN><TH>รหัสพนักงานไม่ถูกต้องตรงกันกับรหัสเดิม ไม่สามารถเปลี่ยนรหัสพนักงานได้</TH></error>
+	<error code="-13103"><EN>Invalid input, only english entries</EN><TH>นำเข้าข้อมูลไม่ถูกต้อง  นำเข้าเฉพาะภาษาอังกฤษเท่านั้น</TH></error>
+	<error code="-13104"><EN>Invalid user first name only in english</EN><TH>นำเข้าข้อมูลไม่ถูกต้อง  ชื่อต้องเป็นภาษาอังกฤษเท่านั้น</TH></error>
+	<error code="-13105"><EN>Invalid user last name only in english</EN><TH>นำเข้าข้อมูลไม่ถูกต้อง  นามสกุลต้องเป็นภาษาอังกฤษเท่านั้น</TH></error>
+	<error code="-13106"><EN>Duplicate record in employee card id</EN><TH>ท่านกรอกเลขที่บัตรประจำตัวประชาชนซ้ำซ้อน</TH></error>
+	<error code="-13107"><EN>Please enter address correctly.</EN><TH>กรุณาระบุที่อยู่ให้ถูกต้อง</TH></error>
+	<error code="-13108"><EN>Duplicate record in employee code</EN><TH>ท่านกรอกรหัสพนักงานซ้ำซ้อน</TH></error>
+	<error code="-13109"><EN>Duplicate record in mobile</EN><TH>ท่านกรอกหมายเลขโทรศัพท์มือถือซ้ำซ้อน</TH></error>
+	
+	<error code="-13201"><EN>Partner provider not found</EN><TH>ไม่พบ ผู้ให้บริการ</TH></error>
+	<error code="-13202"><EN>Partner provider not specified</EN><TH>ข้อมูลไม่ถูกต้อง  เนื่องจากไม่ระบุผู้ให้บริการ</TH></error>
+	<error code="-13203"><EN>Fee rate not found</EN><TH>ไม่สามารถทำรายการได้ เนื่องจากน้อยกว่าวงเงินขั้นต่ำ</TH></error>
+	<error code="-13204"><EN>Mobile number not found</EN><TH>ไม่สามารถทำรายการได้ เนื่องจาก ไม่พบเบอร์โทรศัพท์</TH></error>
+	<error code="-13205"><EN>Over Advance Amount</EN><TH>ไม่สามารถทำรายการได้ เนื่องจากเกินวงเงินที่กำหนด</TH></error>
+	<error code="-13206"><EN>Advance journal not found</EN><TH>ไม่สามารถทำรายการได้ เนื่องจาก หารายการไม่พบ</TH></error>
+	<error code="-13207"><EN>Journal transaction conflict</EN><TH>ไม่สามารถทำรายการได้ เนื่องจาก รายการไม่ถูกต้องตรงกัน</TH></error>
+	<error code="-13208"><EN>Journal transaction not found</EN><TH>ไม่สามารถทำรายการได้ เนื่องจาก หารายการไม่พบ</TH></error>
+	<error code="-13209"><EN>Partner ship not found or not register</EN><TH>ไม่พบ ผู้ให้บริการ หรือยังไม่ได้ลงทะเบียนกับผู้ให้บริการ</TH></error>
+	<error code="-13210"><EN>Partner ship not specified</EN><TH>โปรดระบุผู้ให้บริการ</TH></error>
+	<error code="-13211"><EN>User profile does not existed</EN><TH>ไม่พบข้อมูลผู้ใช้นี้ในระบบ</TH></error>
+	<error code="-13212"><EN>Not allow pin code as card id or birth day</EN><TH>ท่านไม่สามารถตั้งรหัสส่วนตัวด้วยส่วนหนึ่งของเลขที่บัตรประชาชนหรือวันเกิด</TH></error>
+	<error code="-13213"><EN>Confirm PIN Code Mismatch</EN><TH>ท่านยืนยัน รหัสส่วนตัวไม่ถูกต้องตรงกัน</TH></error>
+	<error code="-13214"><EN>Old PIN Code Mismatch</EN><TH>ตรวจสอบ รหัสส่วนตัวเดิมไม่ถูกต้อง</TH></error>
+	<error code="-13215"><EN>Company profile not found</EN><TH>ไม่พบข้อมูลบริษัทที่ท่านสังกัด</TH></error>
+	<error code="-13216"><EN>Invalid setting settlement day</EN><TH>การกำหนดวันที่ตัดรอบบัญชีไม่ถูกต้อง</TH></error>
+	<error code="-13217"><EN>Invalid setting pay day</EN><TH>การกำหนดวันที่จ่ายเงินไม่ถูกต้อง</TH></error>
+	<error code="-13218"><EN>Invalid advance amount</EN><TH>ท่านกรอกจำนวนเงินไม่ถูกต้อง</TH></error>
+	<error code="-13219"><EN>Over OTP mistaken, please new advance transaction again</EN><TH>ท่านขอ OTP เกินจำนวนโควต้าที่กำหนด  กรุณาทำรายการใหม่</TH></error>
+	<error code="-13220"><EN>Over entry OTP fail, please request OTP again</EN><TH>ท่านกรอกรหัส OTP ผิดเกินจำนวนที่กำหนด  กรุณาขอรหัส OTP ใหม่</TH></error>
+	<error code="-13221"><EN>Invalid OTP</EN><TH>ท่านกรอก OTP ไม่ถูกต้อง</TH></error>
+	<error code="-13222"><EN>Verify user not found</EN><TH>ไม่พบข้อมูลผู้ใช้งานระบบ</TH></error>
+	<error code="-13223"><EN>Bank account not found</EN><TH>ไม่พบเลขที่บัญชีธนาคารของผู้ใช้งาน</TH></error>
+	<error code="-13224"><EN>Over entry PIN fail</EN><TH>ท่านกรอกรหัสลับผิดเกินจำนวนที่กำหนด</TH></error>
+	<error code="-13225"><EN>PIN code mismatch error</EN><TH>รหัสลับไม่ถูกต้อง</TH></error>
+	<error code="-13226"><EN>Account name is already existed, please use another one</EN><TH>ชื่อบัญชีนี้ถูกใช้งานแล้ว โปรดใช้ชื่อบัญชีอื่น</TH></error>
+	<error code="-13227"><EN>Bank account not found, please contact the company to open the account</EN><TH>ท่านยังไม่ได้ทำการเปิดบัญชี  กรุณาติดต่อบริษัทเพื่อทำการเปิดบัญชี</TH></error>
+	<error code="-13228"><EN>Settlement day must lesser than pay day</EN><TH>วันที่ตัดบัญชีต้องน้อยกว่าวันที่จ่ายเงินเดือน</TH></error>
+	<error code="-13229"><EN>Can not advance in this day</EN><TH>ไม่สามารถทำรายการเบิกล่วงหน้าได้ในช่วงนี้</TH></error>
+	<error code="-13230"><EN>This account is already registered</EN><TH>ชื่อบัญชีนี้ได้ทำการลงทะเบียนเรียบร้อยแล้ว</TH></error>
+	<error code="-13231"><EN>Rate not found</EN><TH>ไม่สามารถทำรายการได้ เนื่องจากไม่อยู่ในช่วงที่กำหนด</TH></error>
+	<error code="-13232"><EN>Effective Date less than current</EN><TH>วันที่มีผลไม่สามารถน้อยกว่าวันที่ปัจจุบันได้</TH></error>
+	<error code="-13233"><EN>PIN code is undefined</EN><TH>ไม่ได้ระบุรหัสลับ</TH></error>
+	<error code="-13234"><EN>PIN Code Mismatch</EN><TH>ตรวจสอบ รหัสส่วนตัวไม่ถูกต้อง</TH></error>
+	<error code="-13235"><EN>Out of service hour</EN><TH>ขณะนี้ไม่สามารถเบิกเงินได้ เนื่องจากอยู่นอกเวลาทำการ</TH></error>
+	<error code="-13236"><EN>Out of service hour, advance amount will transfer tomorrow</EN><TH>เนื่องจากอยู่นอกเวลาทำการ ท่านจะได้รับเงินภายในวันพรุ่งนี้</TH></error>
+	<error code="-13237"><EN>Out of service on week day</EN><TH>ไม่สามารถทำรายการได้ เนื่องจากเป็นวันหยุด</TH></error>
+	<error code="-13238"><EN>Out of service on week day</EN><TH>ไม่สามารถทำรายการได้ เนื่องจากเป็นวันหยุด</TH></error>
+	<error code="-13239"><EN>Out of service on holiday date</EN><TH>ไม่สามารถทำรายการได้ เนื่องจากเป็นวันหยุด</TH></error>
+	<error code="-13240"><EN>Over Mistaken PIN Code Verification, Please check your account</EN><TH>การตรวจสอบรหัส PIN ไม่ถูกต้องเกินกำหนด โปรดตรวจสอบตัวตน</TH></error>
+	<error code="-13241"><EN>Effective Date is current</EN><TH>วันที่มีผลไม่สามารถเป็นวันที่ปัจจุบันได้</TH></error>
+	<error code="-13242"><EN>Your advance service was hold, please contact your company or service provider</EN><TH>บริการทางการเงินของท่านถูกระงับ โปรดติดต่อหน่วยงานต้นสังกัดหรือผู้ให้บริการ</TH></error>
+	<error code="-13243"><EN>Your company service was hold, please contact your company or service provider</EN><TH>บริษัทของท่านถูกระงับธุรกรรมทางการเงิน โปรดติดต่อหน่วยงานต้นสังกัดหรือผู้ให้บริการ</TH></error>
+	<error code="-13244"><EN>Record not found</EN><TH>ไม่พบรายการ</TH></error>
+	<error code="-13245"><EN>Please wait until upload file process completed</EN><TH>โปรดรอ จนกว่าการนำเข้าข้อมูลจากการอัพโหลดไฟล์จะสำเร็จ</TH></error>
+	<error code="-13246"><EN>Birthday more than current date.</EN><TH>ไม่สามารถเลือกวันเกิด เกินวันที่ปัจจุบันได้</TH></error>
+		
+	<error code="-18900"><EN>Duplicate record in naming</EN><TH>ระบุชื่อไม่ถูกต้อง ชื่อซ้ำในระบบ</TH></error>
+	<error code="-18909"><EN>Card ID must has 13 character</EN><TH>ระบุหมายเลขบัตรประชาชนไม่ถูกต้อง</TH></error>
+	<error code="-18910"><EN>Invalid card ID</EN><TH>ระบุหมายเลขบัตรประชาชนไม่ถูกต้อง</TH></error>
+	
+	<error code="-19902"><EN>No permission to access this site</EN><TH>ท่านไม่มีสิทธิ์ในการเข้าถึงข้อมูลนี้ได้</TH></error>
+</errors>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+		<bean id="advancesms" class="com.fs.dev.smart.sms.ais.AISSmsAdapter">
+                <property name="URL">
+						<value>http://localhost:8080/ria/sms/ais.jsp</value>
+                </property>
+				<property name="sender">
+						<value>66859800937</value>
+				</property>
+				<property name="retry">
+						<value>3</value>
+				</property>
+        </bean>        	        
+</beans>

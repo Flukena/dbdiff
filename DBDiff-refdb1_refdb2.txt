@@ -1,0 +1,21 @@
+	refdb1							refdb2 
+    ------------------------------------------------------------------------
+1. ats
+ field3 Varchar(50) 					field3 Varchar(255)
+2. tso
+ sharename Varchar(50) 					sharename Char(50)
+ remarks TEXT(65535)		
+ column Decimal(10,3)		
+		 					Column Decimal(10,3)
+3. ware
+		 					side Char(50)
+difference case 
+1. ats found in both database but column type, length, precision difference 
+2. tso found in both database but schema tso difference refdb1.tso has column more than refdb1.tso 
+3. tso found in both database but column type, length, precision difference 
+4. remarks found in refdb1 but not found in refdb2
+5. column found in refdb1 but not found in refdb2
+6. Column found in refdb1 but not found in refdb2
+7. ware found in both database but schema ware difference refdb1.ware has column lesser than refdb1.ware 
+8. ware found in both database but column type, length, precision difference 
+9. side found in refdb1 but not found in refdb2
